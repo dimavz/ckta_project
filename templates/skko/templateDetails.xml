@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>SKKO</name>
+	<version>1.0.0</version>
+	<creationDate>09.08.2017</creationDate>
+	<author>Dmitry Zatulenka</author>
+	<authorEmail>zatulenko@gmail.com</authorEmail>
+	<authorUrl>http://SKKO.info</authorUrl>
+	<copyright>Copyright (C) SKKO.Info</copyright>
+	<license>TPL_SKKOINFO_LICENCE</license>
+	<description>TPL_SKKOINFO_DESCRIPTION</description>
+	<files>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>libs</folder>
+		
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+	</files>
+	<positions>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>position-15</position>
+		<position>position-16</position>
+		<position>position-17</position>
+		<position>position-18</position>
+		<position>position-19</position>
+	</positions>
+	<languages folder="language">
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_skko.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_skko.sys.ini</language>
+        
+		<language tag="en-GB">en-GB/en-GB.tpl_skko.ini</language>
+        <language tag="en-GB">en-GB/en-GB.tpl_skko.sys.ini</language>
+	</languages>
+	
+	<config>		
+		<fields name="params">
+			<fieldset name="advanced">
+			
+				<field name="site_logo" 
+					type="media" 
+					label="TPL_SKKOINFO_FIELD_SITELOGO" 
+					description="TPL_SKKOINFO_FIELD_SITELOGO_DESC">
+				</field>
+				
+				<field name="site_name" 
+					type="text" 
+					label="TPL_SKKOINFO_FIELD_SITENAME" 
+					description="TPL_SKKOINFO_FIELD_SITENAME_DESC">
+				</field>
+				
+				<field name="site_desc" 
+					type="textarea" 
+					label="TPL_SKKOINFO_FIELD_SITEDESC" 
+					description="TPL_SKKOINFO_FIELD_SITEDESC_DESC">
+				</field>
+				
+				<field 
+					name="templateHeaderColor" 
+					type="color" 
+					label="TPL_SKKOINFO_COLOR_LABEL"
+					description="TPL_SKKOINFO_COLOR_DESC" 
+					class="" 
+					default="#08C"
+				/>
+
+				<field 
+					name="templateBackgroundColor" 
+					type="color" 
+					label="TPL_SKKOINFO_BACKGROUND_COLOR_LABEL"
+					description="TPL_SKKOINFO_BACKGROUND_COLOR_DESC" 
+					class="" 
+					default="#F4F6F7"
+				/>
+				
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>

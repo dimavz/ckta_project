@@ -1,0 +1,1 @@
+<?php defined('_JEXEC') or die; Условия по рекламе ?>
