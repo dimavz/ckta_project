@@ -233,7 +233,7 @@ ul.profil_menu li i {
     color: yellow; }
 
 #header_topline .container .row ul li.active a {
-    /*color: yellow;*/ }
+    color: yellow; }
 
 #header_topline .dropdown-menu > .active > a {
     background-color: #087faa;
@@ -337,8 +337,9 @@ li.link a:hover {
 
 .phones {
     font-size: 20px;
-    color: #55AB08;
-    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.6);
+    /*color: #55AB08;*/
+    color: white;
+    /*text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.6);*/
     text-align: center;
     margin-top: -15px;
     margin-left: -20px; }
@@ -426,11 +427,12 @@ li.link a:hover {
 
 .greeting #slog {
     position: absolute;
-    color: #55AB08;
+    /*color: #55AB08;*/
+    color: white;
     font-family: "RobotoRegular", sans-serif;
-    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.6);
+    /*text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.6);*/
     font-size: 18px;
-    top: 151px; }
+    top: 120px; }
 
 .notice {
     border: 2px dashed #087faa;
@@ -691,7 +693,7 @@ nav.main_menu .run_string {
     display: inline-block;
     margin-left: 40px;
     margin-top: -4px;
-    color: #06fc23;
+    /*color: #06fc23;*/
     font-size: 24px; }
 
 .string_content span {
@@ -1324,7 +1326,7 @@ section.content {
     margin-left: 5px; }
 
 .footer_topline {
-    background-color: #004E00;
+    background-color: #004E00 ; /* */
     padding: 10px 0;
     color: #FF7704;
     min-height: 30px; }
@@ -1363,6 +1365,11 @@ section.content {
 
 .footer_right_block {
     float: right; }
+
+.footer_right_block p{
+    color: white; }
+.footer_right_block span{
+    color: yellow; }
 
 .skype {
     margin: 10px; }

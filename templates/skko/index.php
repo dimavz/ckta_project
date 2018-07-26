@@ -384,15 +384,21 @@ if ($templateBackgroundColor)
 												<div class="footer_topline">
 													<div class="container">
 														<div class="row">
+                                                            <div class="col-md-4 col-sm-4 col-xs-12">
 															<?php if($showFooterLeftModules): ?>
 																<jdoc:include type="modules" name="position-13" style="footer_left_block"/>
 															<?php endif;?>
+                                                            </div>
+                                                            <div class="col-md-4 col-sm-4 col-xs-12">
 															<?php if($showFooterCenterModules): ?>
 																<jdoc:include type="modules" name="position-14" style="footer_center_block"/>
 															<?php endif;?>
+                                                            </div>
+                                                            <div class="col-md-4 col-sm-4 col-xs-12">
 															<?php if($showFooterRightModules): ?>
 																<jdoc:include type="modules" name="position-15" style="footer_right_block"/>
 															<?php endif;?>
+                                                            </div>
 														</div><!-- /.row -->
 													</div><!-- /.container -->
 												</div><!-- /.footer_topline -->
