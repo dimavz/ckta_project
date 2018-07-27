@@ -169,7 +169,7 @@ function modChrome_button_ecp($module, &$params, &$attribs)
 function modChrome_button_mail($module, &$params, &$attribs)
 {
 	if($module->content){
-		echo '<a class="btn btn-success " href="http://inbox.skko.by/" role="button"><i class="fa fa-envelope" aria-hidden="true"></i>';
+		echo '<a class="btn btn-success " href="mailto:info@ckta.by" role="button"><i class="fa fa-envelope" aria-hidden="true"></i>';
 		echo strip_tags($module->content);
 		echo '</a>';
 	}
