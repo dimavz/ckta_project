@@ -130,6 +130,7 @@ $(document).ready(function() {
 		owl.trigger('stop.owl.autoplay')
 	});
 
+	// Прокрутка слайдера колёсиком мыши
 	owl.on('mousewheel', '.owl-stage', function (e) {
 		if (e.deltaY>0) {
 			owl.trigger('next.owl');
@@ -138,6 +139,28 @@ $(document).ready(function() {
 		}
 		e.preventDefault();
 	});
+
+
+    // owl.on('mouseover', function (e) {
+    //     owl.trigger('stop.owl.autoplay');
+    // });
+
+    // owl.on('mouseout', function (e) {
+    //     owl.trigger('next.owl');
+    // });
+
+   	//При убирании мыши со слайдера запуск воспроизведения слайдов
+    owl.mouseout(function() {
+        owl.trigger('play.owl.autoplay');
+    });
+	//При наведении мыши на слайдер приостановка воспроизведения слайдов
+    owl.mouseover(function() {
+        owl.trigger('stop.owl.autoplay');
+    });
+
+    // owl.mouseover(function() {
+    //     owl.trigger('stop.owl.autoplay');
+    // });
 
 	// Переход с следующему элементу слайдера
 	$('.owl-next').click(function() {
